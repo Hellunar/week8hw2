@@ -1,0 +1,33 @@
+.main {
+  display: grid;
+  align-items: center;
+
+  .main__text_top {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 10vh;
+  }
+  .main__text_bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 5vh;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .main__img {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1/4;
+    overflow: hidden;
+    img {
+      height: 100%; /* Изображение занимает всю высоту контейнера */
+      position: absolute; /* Абсолютное позиционирование для изображения */
+      right: 0; /* Сдвигаем изображение вправо */
+      transform: translateX(
+        20%
+      ); /* Сдвигаем изображение на половину своей ширины вправо */
+    }
+  }
+}

@@ -1,4 +1,11 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  .header__link {
+    padding-left: 5vh;
+  }
+  .header__button {
+    justify-self: end;
+    margin-right: 5vh;
+  }
 }
