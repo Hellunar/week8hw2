@@ -1,0 +1,17 @@
+.footer {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  li {
+    display: inline-block;
+    margin-left: 32px;
+    list-style: none;
+    color: rgb(82, 34, 208);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
