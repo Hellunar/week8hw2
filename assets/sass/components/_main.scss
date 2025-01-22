@@ -39,21 +39,53 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    .part {
-      .part__img {
+    justify-items: center;
+    .form {
+      width: 365px;
+      height: 233px;
+      background-color: #ec615b;
+      .form__input {
+        width: 323px;
+        height: 50px;
+        margin: 6px 0 23px 2px;
+        padding: 9px 215px 9px 14px;
+        background-color: #fff;
       }
-      .part__title {
-      }
-      .part__text {
+      .form__title {
+        width: 325px;
+        height: 36px;
+        margin: 0 0 6px;
+        font-family: Intro;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
       }
     }
-    .form {
-      .form_title {
+    .part {
+      .part__img {
+        justify-self: center;
       }
-      .form_input {
+      .part__title {
+        font-family: Intro;
+        font-size: 30px;
+        line-height: 1.2;
+        text-align: left;
+        color: #000;
       }
-      .form_button {
-      }
+    }
+    .part__text {
+      font-family: RobotoSlab;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.6;
+      text-align: left;
+      color: #000;
+      text-align: left;
     }
   }
 }
